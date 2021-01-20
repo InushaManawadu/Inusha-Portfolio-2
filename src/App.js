@@ -18,16 +18,16 @@ function App() {
           <Profile />
         </Grid>
         <Grid item xs>
-          <Header />
           <Router>
-            <Switch>
-              <Route path='/portfolio'>
-                <Portfolio />
-              </Route>
-              <Route path='/'>
-                <Resume />
-              </Route>
-            </Switch>
+            <Header />
+              <Switch>
+                <Route path='/portfolio'>
+                  <Portfolio />
+                </Route>
+                <Route path='/'>
+                  <Resume />
+                </Route>
+              </Switch>
           </Router>
           <Footer />
         </Grid>
